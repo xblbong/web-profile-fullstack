@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar*/
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+nav .logo img {
+    width: 90px;
+    display: flex;
+
+}
+
+.logo h1 {
+    color: #ffc400;
+    display: flex;
+}
+
+.logo span {
+    color: gainsboro;
+}
+
+nav {
+    background-color: #d40909;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    margin-right: 100px;
+    font-weight: bold;
+
+}
+
+nav ul li a {
+    padding: 20px;
+    color: gainsboro;
+    font-size: large;
+
+}
+
+
+/* home */
+.heroSection{
+   display: flex;
+}
+.container .text{
+    margin: 60px 70px;
+}
+.text h1{
+    color:black;    
+}
+.text h2{
+    color: #ffc400;
+}
+.text h2 span{
+    color: #978e8e
+}
+.container img{
+    margin: 50px 150px;
+    width: 300px;
+    display: flex;
+}
+
+.informasi{
+    margin-top: -70px;
+    background-color: #d40909;
+    padding: 65px;
+    color: white;
+}
+
+.informasi button{
+    padding: 7px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    background-color: goldenrod;
+    color: black;
+    font-weight: bold;
+}
+
+/* footer */
+footer{
+    background-color: #b90404;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img h3{
+    color: #ffc400;
+}
+.img h3 span{
+    color: gainsboro;
+}
+footer h3{
+    margin: 10px 65px;
+}
+footer p{
+    margin-left: 65px;
+    color: white;
+}
+footer a {
+    font-weight: bold;
+    margin-right: 30px;
+    color: white;
+}
+
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -35px;
+    color: white;
+    padding-right: 5px;
+    font-size: 30px;
+}
+
+
+/* table */
+.team {
+    background-color: #d40909;
+    height: 400px;
+    padding: 30px;
+}
+
+.bg-table {
+    background-color: gainsboro;
+    border-radius: 10px;
+    width: 600px;
+    padding: 50px;
+}
+
+table {
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+
+table th {
+    background-color: #808080;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+table tr td {
+    background-color: gray;
+    border-radius: 5px;
+    width: 200px;
+    padding: 10px;
+}
+/* table */
+
+
+
+/* Profile */
+/* content */
+.vm{
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ABOUT */
+.content img{
+    margin-top: 50px;
+    width:215px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.title h3{
+   padding-top: 20px;
+}
+.about{
+    background-color: #d40909;
+    width: 100%;
+    padding: 0 0 50px 0;
+    margin-top: 30px ;
+}
+.about h3{
+    color: white;
+    font-size: 23px;
+}
+
+.p{
+    background-color: gainsboro;
+    width: 600px;
+    height: 300px;
+    border-radius: 10px;
+}
+.p p{
+    margin-top: 15px;
+    padding-top: 95px;
+
+}
+
